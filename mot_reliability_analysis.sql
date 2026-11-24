@@ -89,7 +89,7 @@ FROM mot_reliability
 
 GROUP BY make
 
-ORDER BY failure_rate DESC
+ORDER BY failure_rate DESC;
 
 
 SELECT
