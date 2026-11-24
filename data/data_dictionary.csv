@@ -1,0 +1,13 @@
+column,meaning,source
+make / model,"Vehicle make and model as recorded, upper-cased; UNCLASSIFIED excluded","make, model"
+fuel_type,Fuel type name from DVSA lookup; as recorded and sometimes wrong for hybrids,fuel_type + lookup
+model_year,"Year of first-use date, 2005-2022",first_use_date
+mileage_band,"Odometer at test: 0-30k, 30-60k, 60-90k, 90-120k, 120k+ miles; tests with zero or 500,000+ miles excluded",test_mileage
+tests,"Count of normal tests (test_type NT), class 4 (cars), 2025 test dates, outcome P, F or PRS",derived
+passes / final_failures / prs,"Outcome counts: Passed, Failed, Pass with Rectification at Station",test_result
+initial_failure_rate,(final_failures + prs) / tests,derived
+final_failure_rate,final_failures / tests,derived
+median_mileage,"Median odometer reading of the cohort, to the nearest 1,000 miles (bucket midpoint)",derived
+data_year,2025,file
+source_file,dft_test_result_extracts_2025 (DVSA anonymised MOT results),file
+Selection,"The 2,000 largest cohorts (by tests) with at least 100 tests among the 20 makes with most tests; smaller cohorts and other makes are not in the sample, so the sample over-represents popular models",derived
