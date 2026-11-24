@@ -295,10 +295,9 @@ uk-vehicle-mot-reliability-analysis/
 │   ├── mot_reliability_cohorts_2025_sample.csv
 │   └── data_dictionary.csv
 │
-├── sql/
+├── UK_Vehicle MOT.pbix
 │  
-├── powerbi/
+├── dashboard_preview.png
 │ 
-└── images/
-    └── dashboard_preview.png
+└── mot_reliability_analysis.sql
 ```
