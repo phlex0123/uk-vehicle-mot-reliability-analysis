@@ -221,8 +221,6 @@ Nissan Qashqai diesel cohorts appeared repeatedly among the highest-rate groups.
 
 This highlights the importance of examining vehicle characteristics together rather than independently.
 
-## Power BI Dashboard
-
 An interactive Power BI dashboard was developed to communicate the findings.
 
 ### Key Performance Indicators
