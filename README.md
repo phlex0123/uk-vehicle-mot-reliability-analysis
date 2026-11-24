@@ -10,6 +10,8 @@ This project analyses anonymised UK MOT test data for 2025 to investigate how fi
 Using **PostgreSQL** for data validation and analysis and **Microsoft Power BI** for interactive visualisation, the project identifies patterns in MOT outcomes and translates them into insights that can support automotive and fleet management decisions.
 
 The analysis focuses on understanding differences in failure rates across vehicle characteristics rather than simply ranking manufacturers.
+## Power BI Dashboard
+![UK Vehicle MOT Reliability Dashboard](dashboard_preview.png)
 
 ## Business Questions
 
